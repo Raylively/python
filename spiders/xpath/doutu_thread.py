@@ -1,3 +1,12 @@
+import requests
+import os
+from lxml import etree
+from urllib import request
+import re
+import threading
+from queue import Queue
+
+
 class Proceduer(threading.Thread):
 
     headers = {
